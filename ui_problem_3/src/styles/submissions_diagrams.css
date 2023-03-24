@@ -1,0 +1,38 @@
+.submissions_diagrams{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5% 3% 0% 3%;
+}
+
+.submissions_diagrams > div {
+    border: 2px solid black;
+    width: 49%;
+    border-radius: 3%;
+    border-radius: 10px;
+}
+
+.circle {
+    background-color: rgb(70, 167, 70);
+    margin-top: 5%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.graph {
+    background-color: rgb(70, 167, 70);
+    height: 200px;
+    width: 300px;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
