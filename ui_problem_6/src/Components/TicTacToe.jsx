@@ -4,13 +4,23 @@ import "../styles/tic_tac_toe.css"
 const TicTacToe = () => {
 
     const [turn, setTurn] = useState('X')
+    const [cells, setCells] = useState(Array(9).fill(''))
 
     const handleClick = (num) => {
-        alert(num)
+        let squares = [...cells];
+        if(turn==='X'){
+            squares[num] = 'X'
+            setTurn('O')
+        }
+        else {
+            squares[num] = 'O'
+            setTurn('X')
+        }
+        setCells(squares)
     }
 
     const Cell = ({num}) => {
-        return <td onClick={ () => handleClick(num)} >-</td>
+        return <td onClick={ () => handleClick(num)} > {cells[num]} </td>
     }
 
     return(<div className="box" >
