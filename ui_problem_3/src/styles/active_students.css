@@ -1,0 +1,15 @@
+.active_students {
+    border: 2px solid gray;
+    width: 93.8%;
+    border-radius: 10px;
+    margin: 1.5% 3% 0% 3%;
+}
+
+table {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    width: 98.5%;
+    border: 2px solid gray;
+}

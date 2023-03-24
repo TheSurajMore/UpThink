@@ -6,9 +6,8 @@
 }
 
 .submissions_diagrams > div {
-    border: 2px solid black;
+    border: 2px solid gray;
     width: 49%;
-    border-radius: 3%;
     border-radius: 10px;
 }
 
@@ -35,4 +34,42 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
+}
+
+.graph_data {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.green_box {
+    background-color: rgb(70, 167, 70);
+    height: 15px ;
+    width: 15px;
+    margin-right: 4px;
+}
+
+.blue_box {
+    background-color: blue;
+    height: 15px ;
+    width: 15px;
+    margin-right: 4px;
+}
+
+.graph_data > div {
+    display: flex;
+}
+
+.green {
+    color: rgb(70, 167, 70);
+    align-items: center;
+}
+
+.blue {
+    color: blue;
+    align-items: center;
 }
