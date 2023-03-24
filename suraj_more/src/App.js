@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Suraj More</h1>
+      <div>
+        UI Problem 1 
+        <a href='https://surajmoreuiproblem1.netlify.app' target="_blank" rel="noreferrer" > <button>Solution</button> </a>
+        <a href='https://github.com/TheSurajMore/UpThink/tree/main/ui_problem_1' target="_blank" rel="noreferrer" > <button>Code</button> </a> 
+      </div>
+      <div>
+        UI Problem 3 
+        <a href='https://surajmoreuiproblem3.netlify.app' target="_blank" rel="noreferrer"> <button>Solution</button> </a> 
+        <a href='https://github.com/TheSurajMore/UpThink/tree/main/ui_problem_3' target="_blank" rel="noreferrer"> <button>Code</button></a> 
+      </div>
+      <div>
+        UI Problem 5 
+        <a href='https://surajmoreuiproblem5.netlify.app' target="_blank" rel="noreferrer"> <button>Solution</button> </a> 
+        <a href='https://github.com/TheSurajMore/UpThink/tree/main/ui_problem_5' target="_blank" rel="noreferrer"> <button>Code</button> </a>
+        </div>
     </div>
   );
 }
