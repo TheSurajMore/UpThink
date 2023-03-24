@@ -36,7 +36,7 @@ const Data = () => {
                </div>
             </div>
         </div>
-        <div className="right" >{text}</div>
+        <div className="right" ><p>{text}</p></div>
         </div>
     )
 }
