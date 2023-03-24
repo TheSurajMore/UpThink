@@ -1,0 +1,39 @@
+.submissions > h1 {
+    text-align: left;
+    margin-left: 1.6%;
+}
+
+.submissions table {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    width: 96%;
+    border: 2px solid black;
+    height: 130px;
+}
+
+.submissions .green {
+    background-color: rgb(70, 167, 70) ;
+    color: white;
+}
+
+.submissions .gray {
+    background-color: gray;
+    color: white;
+}
+
+.submissions .green_button {
+    background-color: rgb(70, 167, 70);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.submissions .blue_button {
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 0.5%;
+    border-radius: 3px;
+}
