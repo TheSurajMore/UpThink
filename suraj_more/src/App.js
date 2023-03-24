@@ -18,7 +18,12 @@ function App() {
         UI Problem 5 
         <a href='https://surajmoreuiproblem5.netlify.app' target="_blank" rel="noreferrer"> <button>Solution</button> </a> 
         <a href='https://github.com/TheSurajMore/UpThink/tree/main/ui_problem_5' target="_blank" rel="noreferrer"> <button>Code</button> </a>
-        </div>
+      </div>
+      <div>
+        UI Problem 6 
+        <a href='https://surajmoreuiproblem6.netlify.app' target="_blank" rel="noreferrer"> <button>Solution</button> </a> 
+        <a href='https://github.com/TheSurajMore/UpThink/tree/main/ui_problem_6' target="_blank" rel="noreferrer"> <button>Code</button> </a>
+      </div>
     </div>
   );
 }
