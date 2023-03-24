@@ -1,11 +1,16 @@
 .data {
     display: flex;
     margin: 1%;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    height: 1000px;
 }
 
 .left {
-    margin: 1%;
-    width: 40%;
+    /* margin: 1%; */
+    width: 35%;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
 }
 
 .left div {
