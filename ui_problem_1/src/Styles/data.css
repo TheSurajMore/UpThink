@@ -1,0 +1,32 @@
+.data {
+    display: flex;
+    margin: 1%;
+}
+
+.left {
+    margin: 1%;
+    width: 40%;
+}
+
+.left div {
+    margin-top: 1%;
+}
+
+.course {
+    margin-left: 4%;
+}
+
+.assignment {
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.right {
+    margin-left: 15%;
+}
