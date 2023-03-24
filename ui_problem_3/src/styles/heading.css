@@ -1,0 +1,15 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 1% 1% 1%;
+}
+
+.links {
+    display: flex;
+    width: 17%;
+    justify-content: space-between;
+    background-color: rgb(80, 80, 246);
+    padding: 0.5%;
+    border-radius: 5px;
+    color: white;
+}
