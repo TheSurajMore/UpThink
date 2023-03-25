@@ -1,0 +1,26 @@
+[
+        {
+          "id":1,
+          "name":"Suraj More",
+          "email": "surajmbusiness@gmail.com",
+          "role": "Admin"
+        },
+        {
+          "id":2,
+          "name":"Jake Oliver",
+          "email":"JakeOliver@gmail.com",
+          "role":"Instructor"
+        },
+        {
+          "id":3,
+          "name":"John Connor",
+          "email":"JohnConnor@gmail.com",
+          "role":"Student"
+        },
+        {
+          "id":4,
+          "name":"Charlie William",
+          "email":"CharlieWilliam@gmail.com",
+          "role":"Admin"
+        }
+]
