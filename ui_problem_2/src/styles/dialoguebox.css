@@ -1,0 +1,17 @@
+.main{
+    border: 1px solid gray;
+    padding: 1%;
+    width: 40%;
+}
+
+.data{
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 4%;
+}
+
+.main > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
