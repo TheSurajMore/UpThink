@@ -1,13 +1,13 @@
 import "../styles/dialoguebox.css"
 
-const DialogueBox = ({name, email, now, change1, change2 }) => {
+const DialogueBox = ({name, email, now, change1, change2, close }) => {
 
     return(
         <>
           <div className="main" >
             <div className="heading" >
               <h2>Edit User Profile</h2>
-              <button style={{border:'0px', width:"fit-content" }} >✖</button>
+              <button onClick={close} style={{border:'0px', width:"fit-content" } } >✖</button>
             </div>
             <div className="data" >
               <div>

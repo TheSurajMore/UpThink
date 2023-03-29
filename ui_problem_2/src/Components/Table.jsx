@@ -13,6 +13,10 @@ const Table = () => {
   setShow(true)
  }
 
+ const close = () => {
+  setShow(false)
+ }
+
     return(
         <div className="table" >
             <h2>Manage Users</h2>
@@ -36,8 +40,9 @@ const Table = () => {
               {
                 show && <DialogueBox name={id.name} email={id.email} now={id.role} 
                 //Admin
-                change1={id.role===Admin?"Student":''}
-                change2={id.role===Admin?"Instructor":''} />
+                change1={id.role==="Admin"?"Student":''}
+                change2={id.role==="Admin"?"Instructor":''} 
+                close={close}/>
               }
         </div>
     )
