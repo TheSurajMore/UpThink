@@ -25,7 +25,7 @@ function App() {
         <a href='https://github.com/TheSurajMore/UpThink/tree/main/ui_problem_6' target="_blank" rel="noreferrer"> <button>Code</button> </a>
       </div>
       <div>
-        UI Problem 2 (50% Completed)
+        UI Problem 2 (80% Completed)
         <a href='https://surajmoreuiproblem2.netlify.app' target="_blank" rel="noreferrer"> <button>Solution</button> </a> 
         <a href='https://github.com/TheSurajMore/UpThink/tree/main/ui_problem_2' target="_blank" rel="noreferrer"> <button>Code</button> </a>
       </div>
